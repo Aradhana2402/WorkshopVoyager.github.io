@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./assets/ieee.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshops</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<nav class ='navbar navbar-expand-md navbar-light 
+    bg-light sticky-top' id='navigation'>
+        <a class= "navbar-brand" href="https://ieee.vit.edu.in"><img src = "https://ieee.vit.edu.in/assets/images/ieeevit-blue-1-5017x1103.png"></a><br>
+
+        <button class = "navbar-toggler" data-toggle="collapse" data-target = "#collapse_target">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+
+        <div class ="collapse navbar-collapse" id ="collapse_target">
+            
+            <ul class = "navbar-nav ml-auto">
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://ieee.vit.edu.in/index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://iris.vit.edu.in/"><i class="fa fa-eye" aria-hidden="true"></i> IRIS</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://voyager.vit.edu.in"><i class="fa fa-rocket" aria-hidden="true"></i>
+                    VOYAGER</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://ieee.vit.edu.in/index.html#content4-36"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://ieee.vit.edu.in/index.html#features16-1g"><i class="fa fa-users" aria-hidden="true"></i> The Team</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "https://ieee.vit.edu.in/ieeevitblog/"><i class="fa fa-rss" aria-hidden="true"></i> Our Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    
+    <section class="container-fluid" id="Carousel_slider">
+    <div id="slides" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+                <img src="https://image.freepik.com/free-vector/app-development-banner_33099-1720.jpg" SameSite=None alt="App Development" id="app_img">
+                <div class="carousel-caption">
+                    <figcaption> Application Development Workshop</figcaption>
+                    <button id="app" class="btn" onmouseup="this.blur()" data-toggle="modal" data-target="#and-app">Details</button>
+                    <button id="regiapp" class="btn btn-info" onmouseup="this.blur()"><a href="#">Register</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img id="opencv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1iHeGja42PAsrP9JCwKj9g9xSCNS9baNcSg&usqp=CAU" SameSite=None alt="OpenCV">
+                <div class="carousel-caption">
+                    <figcaption> OpenCV Workshop</figcaption>
+                    <button id="opencv" class="btn" onmouseup="this.blur()" data-toggle="modal" data-target="#intro-cv">Details</button>
+                    <button id="regicv" class="btn btn-info " onmouseup="this.blur()"><a href="#">Register</a></button>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+    </div>
+    </section>
+  
+  <div class="modal fade" id="and-app" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+          <div id="det-app" class="card container-fluid text-center" style="width: 70vw;">
+            <img src="data:image/jpeg;base64,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" style="height: 250px;">
+            <div class="card-body">
+                <h2 id="app-cap" class="container-fluid textcenter display-4 text-light">App Development</h2>
+                <p class="text-light">
+                   App Development workshop<br>
+                   Required installations will be informed.
+
+                </p>
+            </div>
+              <button type="button" class="btn btn-success" data-dismiss="modal" aria-label="open">Open</button>
+        </div>
+    </div>
+  </div>
+  <div class="modal fade" id="intro-cv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+          <div id="det-p5" class="card container-fluid text-center" style="width: 70vw;">
+            <img src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png" style="height: 250px;">
+            <div class="card-body">
+                <h2 id="cv-cap" class="container-fluid textcenter display-4 text-light">OpenCV Workshop </h2>
+                <p class="text-light" style="text-align: left">
+                Gesture Controlled Gaming<br>
+                PyCharm IDE and Python must be installed.
+
+                </p>
+            </div>
+              <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Open">Close</button>
+        </div>
+    </div>
+  </div>
+    <footer id="Sticky" class="py-2 bg-dark text-light">
+        <div id="icons" class="container-fluid text-center">
+            <span><a href="https://twitter.com/vitieee" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></span>
+            <span><a href="https://www.facebook.com/IEEEVIT1/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></span>
+            <span><a href="https://www.instagram.com/ieeevit/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></div></a></span>
+        </div>
+        <div id="copyright" class="container-fluid text-center">
+            <span>&copy; 2020-2021 Copyright:</span><br>
+            <span>IEEE-VIT STUDENT BRANCH</span><br>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+</body>
+</html>
